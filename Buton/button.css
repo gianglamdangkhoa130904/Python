@@ -1,0 +1,75 @@
+.Khoa{
+    border: none;
+    border-radius: 10px;
+    color: black;
+    font-size: 30px;
+    background-color: lightcoral;
+    box-shadow: 0px 10px black;
+    padding: 20px 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Khoa:active{
+    box-shadow: none;
+    transform: translateY(10px);
+}
+.button1{
+    border: none;
+    border-radius: 10px;
+    color: beige;
+    background: lightblue;
+    font-size: 30px;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0px 10px black;
+}
+.button1:hover{
+    background: beige;
+    color: white;
+}
+.button1:active{
+    box-shadow: none;
+    transform: translateY(10px);
+}
+.button2{
+    border: none;
+    border-radius: 10px;
+    background: plum;
+    color: indigo;
+    font-size: 30px;
+    transition: 0.5s;
+    padding: 20px 20px;
+    cursor: pointer;
+    box-shadow: 10px 10px black;
+}
+.button2:hover{
+    background-color: indigo;
+    color: plum;
+}
+.button2:active{
+    box-shadow: none;
+    transform: translateY(20px);
+    transform: translateX(20px); 
+}
+.button3{
+    border-color: blueviolet;
+    border-radius: 20px 20px;
+    border-width: 5px;
+    border-style: outset;
+    color: blueviolet;
+    padding: 20px 20px;
+    transition: 0.5s;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0px -10px black;
+}
+.button3:hover{
+    background: blueviolet;
+    color: white;
+    font-weight: bold;
+}
+.button3:active{
+    box-shadow: none;
+    transform: translateY(-10px);
+}
